@@ -1,21 +1,21 @@
 {
-  "name": "contactform",
+  "name": "omni-message",
   "version": "1.0.0",
-  "description": "take info from a form and send a mail, a discord message, etc...",
+  "description": "A module to send a mail, a discord message, etc... in one function",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kenan-Blasius/contactForm.git"
+    "url": "git+https://github.com/Kenan-Blasius/OmniMessage.git"
   },
   "author": "kenan-blasius <kenan.blasius@epitech.eu>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Kenan-Blasius/contactForm/issues"
+    "url": "https://github.com/Kenan-Blasius/OmniMessage/issues"
   },
-  "homepage": "https://github.com/Kenan-Blasius/contactForm#readme",
+  "homepage": "https://github.com/Kenan-Blasius/OmniMessage#readme",
   "dependencies": {
     "discord.js": "^14.13.0",
     "nodemailer": "^6.9.5"
