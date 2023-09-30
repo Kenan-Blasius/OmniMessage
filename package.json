@@ -1,0 +1,23 @@
+{
+  "name": "contactform",
+  "version": "1.0.0",
+  "description": "take info from a form and send a mail, a discord message, etc...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kenan-Blasius/contactForm.git"
+  },
+  "author": "kenan-blasius <kenan.blasius@epitech.eu>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kenan-Blasius/contactForm/issues"
+  },
+  "homepage": "https://github.com/Kenan-Blasius/contactForm#readme",
+  "dependencies": {
+    "discord.js": "^14.13.0",
+    "nodemailer": "^6.9.5"
+  }
+}
