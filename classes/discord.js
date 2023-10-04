@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
-const mail = require('./mail');
 
-class DiscordMessage extends mail {
+class DiscordMessage {
     // toggle services
     _discord;
 

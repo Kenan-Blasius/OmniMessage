@@ -1,9 +1,7 @@
-// const mail = require('./classes/mail');
-// mail -> discord -> Contact
+const mail = require('./classes/mail');
 const discord = require('./classes/discord');
 
-// class Contact extends Classes([mail, discord]) {
-class Contact extends discord {
+class Contact extends Classes([mail, discord]) {
     _title;
     _content;
 
