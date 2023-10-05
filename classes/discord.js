@@ -32,7 +32,9 @@ class DiscordMessage {
      * @return {void}
     */
     async _sendDiscord(title, content) {
-       try {
+        try {
+            if (!this._discord)
+                return;
             await this._checkVariablesDiscord();
 
             this._webhookClient = new Discord.WebhookClient({

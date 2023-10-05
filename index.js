@@ -16,10 +16,8 @@ class Contact extends Classes([mail, discord]) {
      */
     async sendAll() {
         try {
-            if (this._mail)
-                this._sendMail(this._title, this._content)
-            if (this._discord)
-                this._sendDiscord(this._title, this._content)
+            this._sendMail(this._title, this._content)
+            this._sendDiscord(this._title, this._content)
         } catch (error) {
             throw error
         }

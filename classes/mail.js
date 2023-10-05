@@ -43,6 +43,8 @@ class MailMessage {
      */
     async _sendMail(title, content) {
         try {
+            if (!this._mail)
+                return;
             await this._checkVariablesMail();
 
             this._transporter = nodemailer.createTransport({
