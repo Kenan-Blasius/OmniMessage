@@ -1,7 +1,8 @@
 const mail = require('./classes/mail');
 const discord = require('./classes/discord');
+const slack = require('./classes/slack');
 
-class Contact extends Classes([mail, discord]) {
+class Contact extends Classes([mail, discord, slack]) {
     _title;
     _content;
 
@@ -18,6 +19,7 @@ class Contact extends Classes([mail, discord]) {
         try {
             this._sendMail(this._title, this._content)
             this._sendDiscord(this._title, this._content)
+            this._sendSlack(this._title, this._content)
         } catch (error) {
             throw error
         }

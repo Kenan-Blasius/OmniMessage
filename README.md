@@ -60,6 +60,26 @@ message.setDiscordUse(BOOLEAN);
 message.setDiscordWebhookURL(process.env.DISCORD_TOKEN);
 ```
 
+#### Slack
+
+Set the slack variables all at once
+
+```js
+omniMessage.setSlackVariables({
+    use: true,
+    token: process.env.SLACK_TOKEN,
+    channelId: process.env.SLACK_CHANNEL_ID
+});
+```
+
+or one by one
+
+```js
+omniMessage.setSlackUse(true);
+omniMessage.setSlackToken(process.env.SLACK_TOKEN);
+omniMessage.setSlackChannelId(process.env.SLACK_CHANNEL_ID);
+```
+
 ## Suported API
 
 - Mail
