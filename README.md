@@ -84,3 +84,4 @@ omniMessage.setSlackChannelId(process.env.SLACK_CHANNEL_ID);
 
 - Mail
 - Discord
+- Slack

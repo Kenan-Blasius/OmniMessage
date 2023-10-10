@@ -1,6 +1,6 @@
 {
   "name": "omni-message",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "A module to send a mail, a discord message, etc... in one function",
   "main": "index.js",
   "scripts": {
